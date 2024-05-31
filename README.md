@@ -15,3 +15,6 @@ After winning the first round, the player will be rewarded points and can be con
 There are multiple buy Towers and upgrade options in the Shop. After winning the first round, there is a possibility that the player's towers
 will randomly break and disappear from their inventory.
 
+Authors:
+Ngoc Le (Mickey)
+Anh Le
