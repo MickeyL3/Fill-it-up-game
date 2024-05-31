@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Light.Distant?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.SepiaTone?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1500.0" style="-fx-background-color: rgba(224,210,250,0.8);" xmlns="http://javafx.com/javafx/21.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng201.team0.gui.ShopController">
+   <children>
+      <Button fx:id="tower1" layoutX="125.0" layoutY="552.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" text="Tower 1">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="tower2" layoutX="380.0" layoutY="552.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" text="Tower 2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="tower3" layoutX="650.0" layoutY="552.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" text="Tower 3">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="upgradeCard1" layoutX="133.0" layoutY="301.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" text="Item 1">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="upgradeCard2" layoutX="388.0" layoutY="301.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" text="Item 2">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Button fx:id="upgradeCard3" layoutX="650.0" layoutY="301.0" mnemonicParsing="false" prefHeight="140.0" prefWidth="200.0" text="Item 3">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label layoutX="500.0" layoutY="21.0" prefHeight="113.0" prefWidth="463.0" text="Welcome to the Shop " textFill="#d90000">
+         <font>
+            <Font name="System Bold Italic" size="35.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="125.0" prefHeight="57.0" prefWidth="628.0" text="where you can find anything you want to survive!" textFill="#da0cd3">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font></Label>
+      <Label layoutX="233.0" layoutY="486.0" text="Want more Towers?">
+         <font>
+            <Font name="System Bold Italic" size="30.0" />
+         </font></Label>
+      <Label layoutX="244.0" layoutY="218.0" text="Want to boost yours Tower power?">
+         <font>
+            <Font name="System Bold Italic" size="28.0" />
+         </font></Label>
+      <Button layoutX="1072.0" layoutY="778.0" mnemonicParsing="false" onAction="#onNextClicked" prefHeight="60.0" prefWidth="160.0" text="Next">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="2.0" specularConstant="2.0" specularExponent="40.0" surfaceScale="3.56">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant>
+                     <color>
+                        <Color red="0.2705882489681244" green="0.9607843160629272" blue="0.2823529541492462" />
+                     </color>
+                  </Light.Distant>
+               </light>
+            </Lighting>
+         </effect></Button>
+      <Label fx:id="playerCoins" layoutX="1152.0" layoutY="47.0" prefHeight="78.0" prefWidth="107.0" text="Money">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Label>
+      <Button layoutX="400.0" layoutY="778.0" mnemonicParsing="false" onAction="#onBuyClicked" prefHeight="60.0" prefWidth="160.0" text="Buy">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <effect>
+            <DropShadow height="12.5" radius="6.375" spread="0.45" width="15.0">
+               <color>
+                  <Color red="0.8823529481887817" green="0.15294118225574493" blue="0.15294118225574493" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <ImageView fitHeight="334.0" fitWidth="325.0" layoutX="1056.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/dicedreams-dicedream.gif" />
+         </image>
+      </ImageView>
+      <Label fx:id="messageAlertLabel" layoutX="444.0" layoutY="725.0" textFill="#144ad3">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+      </Label>
+   </children>
+   <effect>
+      <SepiaTone level="0.25" />
+   </effect>
+</AnchorPane>
