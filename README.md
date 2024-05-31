@@ -19,8 +19,6 @@ There are multiple buy Towers and upgrade options in the Shop. After winning the
 will randomly break and disappear from their inventory. 
 
 ## Authors
-Team 82
-
 Ngoc Le (Mickey)
 
 Anh Le 
