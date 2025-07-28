@@ -1,5 +1,7 @@
-# WELCOME TO FILL IT UP GAME!
+ # FILL IT UP GAME!
+<img width="1493" height="893" alt="Screenshot 2025-07-28 at 15 26 24" src="https://github.com/user-attachments/assets/abc37026-14f3-4296-a242-540825ed2c80" /> />
 
+Video: https://www.youtube.com/watch?v=MMAE9QMzxmI
 
 The player will start the game by entering their name, choosing game difficulty modes
 (easy – moderate – challenging). This setting changes the number of carts and the amount of the corresponding resource it takes to fill each one.
@@ -19,9 +21,16 @@ There are multiple buy Towers and upgrade options in the Shop. After winning the
 will randomly break and disappear from their inventory. 
 
 ## Authors
-Ngoc Le (Mickey)
-
+Ngoc Le (Mickey) &
 Anh Le 
+
+<img width="1494" height="902" alt="Screenshot 2025-07-28 at 15 27 11" src="https://github.com/user-attachments/assets/4f9dec77-9df6-440a-a406-602b636b28e6" /> />
+
+<img width="1502" height="900" alt="Screenshot 2025-07-28 at 15 28 53" src="https://github.com/user-attachments/assets/ab95be46-255d-44a6-b392-b8e7f4206f16" /> />
+
+<img width="1482" height="899" alt="Screenshot 2025-07-28 at 15 32 09" src="https://github.com/user-attachments/assets/6888f55c-82ad-418f-bb8f-c0a0ca9319ba" />
+
+
 ## Prerequisites
 - JDK >= 17 [click here to get the latest stable OpenJDK release (as of writing this README)](https://jdk.java.net/18/)
 - *(optional)* Gradle [Download](https://gradle.org/releases/) and [Install](https://gradle.org/install/)
